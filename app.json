@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "LexQuant",
+    "slug": "lexquant-mobile",
+    "version": "0.1.0",
+    "scheme": "lexquant",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lexquant.mobile"
+    },
+    "android": {
+      "package": "com.lexquant.mobile"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
